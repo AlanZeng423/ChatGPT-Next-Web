@@ -347,3 +347,16 @@
 .rtl-screen {
   direction: rtl;
 }
+
+
+.footer {
+  text-align: center; /* 文本居中 */
+  padding: 10px;      /* 增加内边距 */
+  font-size: 12px;    /* 调整字体大小 */
+  color: #888;        /* 字体颜色 */
+  background-color: #f9f9f9; /* 背景颜色 */
+  border-top: 1px solid #e0e0e0; /* 顶部分割线 */
+  position: fixed;    /* 固定在页面底部 */
+  bottom: 0;          /* 距离底部 0 */
+  width: 100%;        /* 占据整个页面宽度 */
+}
