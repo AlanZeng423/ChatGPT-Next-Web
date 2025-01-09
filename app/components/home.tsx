@@ -228,7 +228,14 @@ export function useLoadData() {
 export function Footer() {
   return (
     <footer className={styles.footer}>
-      备案号: 蜀ICP备2024078125号-2
+      <a
+        href="https://beian.miit.gov.cn"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#888", textDecoration: "none" }}
+      >
+        备案号：蜀ICP备2024078125号-2
+      </a>
     </footer>
   );
 }
