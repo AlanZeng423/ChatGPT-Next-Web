@@ -225,6 +225,14 @@ export function useLoadData() {
   }, []);
 }
 
+export function Footer() {
+  return (
+    <footer className={styles.footer}>
+      备案号: 蜀ICP备2024078125号-2
+    </footer>
+  );
+}
+
 export function Home() {
   useSwitchTheme();
   useLoadData();
@@ -244,6 +252,7 @@ export function Home() {
       <Router>
         <Screen />
       </Router>
+      <Footer />
     </ErrorBoundary>
   );
 }
